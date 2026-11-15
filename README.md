@@ -6,9 +6,11 @@
 
 ## 使用主题
 
-在 2FA 中打开 **设置 → 外观与主题 → 主题 → 社区主题**，选择主题，预览并应用。已支持主题导入、但尚未支持社区目录或暂时无法读取目录的 2FA，可以下载 `themes/<主题 id>/2fa-theme.zip` 后手动导入；没有主题功能的旧版主程序需要先升级。
+在 2FA 中打开 **设置 → 外观与主题 → 主题 → 社区主题**，选择主题，预览并应用。主题功能从 2FA 2.0.0 起提供，更早的版本需要先升级。目录暂时无法读取时，可以下载 `themes/<主题 id>/2fa-theme.zip`，在 **外观与主题** 中导入。
 
 个人主题不必上架。用户仍可通过文件或个人仓库地址导入自己的主题。
+
+想做自己的主题，从模板仓库 [wuzf/2fa-theme-template](https://github.com/wuzf/2fa-theme-template) 开始；格式与接口见主项目的 [自定义主题](https://github.com/wuzf/2fa/blob/main/docs/THEMES.md) 和 [完整前端主题与 SDK](https://github.com/wuzf/2fa/blob/main/docs/THEME_APP_SDK.md)。
 
 ## 提交与更新
 

@@ -2,7 +2,7 @@
 
 ## 作者准备
 
-在自己的 GitHub 仓库开发主题。v2 完整前端主题遵循主项目的 `docs/THEME_APP_SDK.md`，v1 样式与布局主题遵循 `docs/THEMES.md`。发布前在真实 2FA 实例验证安装、预览、应用、设置、窄屏、浅深色、离线和恢复入口。
+在自己的 GitHub 仓库开发主题。v2 完整前端主题遵循主项目的 [`docs/THEME_APP_SDK.md`](https://github.com/wuzf/2fa/blob/main/docs/THEME_APP_SDK.md)，v1 样式与布局主题遵循 [`docs/THEMES.md`](https://github.com/wuzf/2fa/blob/main/docs/THEMES.md)。第一次做 v2 主题，建议在模板仓库 [wuzf/2fa-theme-template](https://github.com/wuzf/2fa-theme-template) 点 **Use this template** 创建自己的仓库，它带有开发预览、测试、打包和校验脚本。发布前在真实 2FA 实例验证安装、预览、应用、设置、窄屏、浅深色、离线和恢复入口。
 
 制作不含个人账户、凭据或外观配置的 `2fa-theme.zip`。ZIP 根目录直接放置 `2fa-theme.json` 和构建产物。所有代码依赖、样式、图片、字体及所需许可证必须随包提交；不得依赖作者仓库、CDN 或其他远端站点提供运行资源。v2 的模块和样式资源引用由校验器检查，其他运行时资源访问也须在人工审查中确认。
 
