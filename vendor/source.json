@@ -1,0 +1,59 @@
+{
+  "repository": "https://github.com/wuzf/2fa",
+  "commit": "cf9a654eab63f64b916f751e4b9f39279ed0dbe1",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "1a561842d283f90f9025429284d3da069b420c5125c626b70c41a8d9bd940cbe"
+    },
+    {
+      "path": "themes/appArchive.js",
+      "sha256": "3c31a8d46345fc3750426e5403181e56804953466e8ab963a24dc6b8ee3093bc"
+    },
+    {
+      "path": "themes/appPackage.js",
+      "sha256": "18923140a4c21b0005b65d471004a785b473ecfba1ee640ba978951e4591763f"
+    },
+    {
+      "path": "themes/appResources.js",
+      "sha256": "6b1074861446eb5237a9a8c94476d8aa34946d3392a8eaae9ba71d8139cc52d2"
+    },
+    {
+      "path": "themes/appSchema.js",
+      "sha256": "a20ba626050c2b0e255fe4ed82cbdb469004c8d20b0a3150dcc6b9224f746ff4"
+    },
+    {
+      "path": "themes/archive.js",
+      "sha256": "21246a0742b409d3c0d78678f013ddff790e60698a67df21a8cfa084b2c4a79c"
+    },
+    {
+      "path": "themes/css.js",
+      "sha256": "8d73bcbd11563383d4cdf59d4da54f370246a749d56adf6f12ea0e016ed89489"
+    },
+    {
+      "path": "themes/import.js",
+      "sha256": "5a6273d39b1c60c08b0ca9ecd458b15b230403ae190375ca8ad99359dde19c3b"
+    },
+    {
+      "path": "themes/package.js",
+      "sha256": "b1707f918ec6f8b20e7b252edc17f1574fce89a18e30d4740092307ed00aadd5"
+    },
+    {
+      "path": "themes/publicAppearance.js",
+      "sha256": "d9380a81abf87402614d356ea7f0a72a340d604827e3e04a453c8c3733ccead5"
+    },
+    {
+      "path": "themes/resources.js",
+      "sha256": "5cc1f14f11401ad640ecb4e87459d0075818d25f03cb2a10094289b2dee3c861"
+    },
+    {
+      "path": "themes/schema.js",
+      "sha256": "0375f78ff497dc8883cd9e1798a14491aa8c2a3563e8f1884250a76538d5d481"
+    },
+    {
+      "path": "ui/runtime/hostAppearance.js",
+      "sha256": "7a1afa306708feefcbc17ee5646b0ffb39189b47507f64856cb06c4bf8632830"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+name: Validate catalog
+
+on:
+  pull_request_target:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the trusted validator
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          path: validator
+          persist-credentials: false
+          submodules: false
+          lfs: false
+      - name: Check out submitted files as data
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          path: candidate
+          persist-credentials: false
+          submodules: false
+          lfs: false
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Install trusted validator dependencies without lifecycle scripts
+        working-directory: validator
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Test the trusted validator
+        working-directory: validator
+        run: node --test tests/*.test.mjs
+      - name: Validate theme PR scope and packages with the trusted validator
+        if: github.event_name == 'pull_request_target'
+        run: node validator/scripts/catalog.mjs --root candidate --trusted-root validator --check
+      - name: Validate reviewed main-branch packages
+        if: github.event_name == 'push'
+        run: node validator/scripts/catalog.mjs --root candidate --check

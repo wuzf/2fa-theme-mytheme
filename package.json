@@ -1,0 +1,19 @@
+{
+  "name": "2fa-theme-mytheme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-contained community themes for 2FA, submitted through pull requests",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "catalog": "node scripts/catalog.mjs --write",
+    "check": "node scripts/catalog.mjs --check",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "acorn": "8.15.0",
+    "css-tree": "3.2.1",
+    "fflate": "0.8.3"
+  }
+}
