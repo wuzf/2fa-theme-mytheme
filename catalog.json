@@ -91,6 +91,19 @@
       "sha256": "c5db5a64af85651d562dc3f1adb27c5910d926fa0955860194fb919b6a19aea3",
       "size": 3278426,
       "source": "https://github.com/wuzf/2fa-theme-journal"
+    },
+    {
+      "id": "neubrutalism-for-2fa",
+      "kind": "app",
+      "name": "Neubrutalism（新粗野主义）",
+      "version": "1.0.0",
+      "description": "新粗野主义 2FA 主题：撞色便当盒看板、粗黑描边与硬阴影，底部悬浮操作条。",
+      "author": "2FA Theme Contributors",
+      "packageId": "675e32edc6aaa9e134bd4e6b2572ac28305afbbe78c26b73a6d7aac8a19270e8",
+      "path": "themes/neubrutalism-for-2fa/2fa-theme.zip",
+      "sha256": "e0352857a244058e99417fc2694b81802c1e6b1e84957467169ba37e0eb30f98",
+      "size": 63471,
+      "source": "https://github.com/wuzf/2fa-theme-neubrutalism"
     }
   ]
 }
