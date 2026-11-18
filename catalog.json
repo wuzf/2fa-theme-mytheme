@@ -1,4 +1,18 @@
 {
   "schemaVersion": 1,
-  "themes": []
+  "themes": [
+    {
+      "id": "brutalist-for-2fa",
+      "kind": "app",
+      "name": "Brutalist（野兽派）",
+      "version": "1.0.0",
+      "description": "彩色野兽派 2FA 主题：排版式账本行、巨大验证码与吸顶的粗体服务页签。",
+      "author": "2FA Theme Contributors",
+      "packageId": "c4e8d7c0782ebd08faea5cb8f69788096ed5724bf4144116d397790127103896",
+      "path": "themes/brutalist-for-2fa/2fa-theme.zip",
+      "sha256": "bc51fbf0ed8c4e17560622c6de2fbf97cd12b96d174bc95b5ae594e9f5b40c86",
+      "size": 57452,
+      "source": "https://github.com/wuzf/2fa-theme-brutalist"
+    }
+  ]
 }
