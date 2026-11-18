@@ -13,6 +13,19 @@
       "sha256": "bc51fbf0ed8c4e17560622c6de2fbf97cd12b96d174bc95b5ae594e9f5b40c86",
       "size": 57452,
       "source": "https://github.com/wuzf/2fa-theme-brutalist"
+    },
+    {
+      "id": "claude-for-2fa",
+      "kind": "app",
+      "name": "Claude",
+      "version": "1.0.0",
+      "description": "A Claude-inspired reading room: a quiet service sidebar beside one centred column of accounts, with warm paper and terracotta accents.",
+      "author": "2FA Theme Contributors",
+      "packageId": "44f99763278bc8f9130fb3f8f0415c5bc5fb908ea227948e406714b678e31281",
+      "path": "themes/claude-for-2fa/2fa-theme.zip",
+      "sha256": "2a03d7477ec22b1b1923d58c7d189d4431568303ada7794a23394d621db2bf4b",
+      "size": 59391,
+      "source": "https://github.com/wuzf/2fa-theme-claude"
     }
   ]
 }
