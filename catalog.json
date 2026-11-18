@@ -26,6 +26,19 @@
       "sha256": "2a03d7477ec22b1b1923d58c7d189d4431568303ada7794a23394d621db2bf4b",
       "size": 59391,
       "source": "https://github.com/wuzf/2fa-theme-claude"
+    },
+    {
+      "id": "codex-for-2fa",
+      "kind": "app",
+      "name": "Codex",
+      "version": "1.0.0",
+      "description": "A Codex-inspired authenticator laid out as an IDE console: activity bar, explorer tree, command palette, account table and status bar.",
+      "author": "2FA Theme Contributors",
+      "packageId": "49cf0471889c6bcee37edb8ae944090399d2d3259adb2e2a5968401d0cdc64b1",
+      "path": "themes/codex-for-2fa/2fa-theme.zip",
+      "sha256": "3ba811870ef37ea6da337db9c8c9a282fd4e0d73c15368e56e66e105371cfda3",
+      "size": 62775,
+      "source": "https://github.com/wuzf/2fa-theme-codex"
     }
   ]
 }
