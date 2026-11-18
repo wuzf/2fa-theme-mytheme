@@ -78,6 +78,19 @@
       "sha256": "009576bbd4d98a0367019c08f503dd6af0d5aeec6e852b7a092d1be93c7c6b65",
       "size": 61482,
       "source": "https://github.com/wuzf/2fa-theme-glassmorphism"
+    },
+    {
+      "id": "journal-for-2fa",
+      "kind": "app",
+      "name": "Journal",
+      "version": "1.0.0",
+      "description": "A travel-journal authenticator: kraft cover, dotted pages, washi tape and a postmark stamp around every code.",
+      "author": "2FA Theme Contributors",
+      "packageId": "f57451ef931f3408f6afafebac88c5181614b4c1732c1da625375d59e1c874cb",
+      "path": "themes/journal-for-2fa/2fa-theme.zip",
+      "sha256": "c5db5a64af85651d562dc3f1adb27c5910d926fa0955860194fb919b6a19aea3",
+      "size": 3278426,
+      "source": "https://github.com/wuzf/2fa-theme-journal"
     }
   ]
 }
