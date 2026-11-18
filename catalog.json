@@ -65,6 +65,19 @@
       "sha256": "063ebd08a15bbded5b8c53181798ec2f08d2b2bc0ac810fea5103145f68cdb20",
       "size": 71488,
       "source": "https://github.com/wuzf/2fa-theme-ente"
+    },
+    {
+      "id": "glassmorphism-for-2fa",
+      "kind": "app",
+      "name": "Glassmorphism（玻璃拟态）",
+      "version": "1.0.0",
+      "description": "玻璃拟态 2FA 主题：浮动搜索胶囊、半透明账户名册与悬浮 Dock，支持三种配色、深色模式和实色表面。",
+      "author": "2FA Theme Contributors",
+      "packageId": "11051f17c8c5efe93110679dec0bba15636f3eea45c6c3f0bc79ba5816da35cc",
+      "path": "themes/glassmorphism-for-2fa/2fa-theme.zip",
+      "sha256": "009576bbd4d98a0367019c08f503dd6af0d5aeec6e852b7a092d1be93c7c6b65",
+      "size": 61482,
+      "source": "https://github.com/wuzf/2fa-theme-glassmorphism"
     }
   ]
 }
