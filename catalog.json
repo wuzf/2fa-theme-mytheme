@@ -39,6 +39,19 @@
       "sha256": "3ba811870ef37ea6da337db9c8c9a282fd4e0d73c15368e56e66e105371cfda3",
       "size": 62775,
       "source": "https://github.com/wuzf/2fa-theme-codex"
+    },
+    {
+      "id": "cyberpunk-for-2fa",
+      "kind": "app",
+      "name": "Neon Vault · 霓虹密库",
+      "version": "1.0.0",
+      "description": "赛博朋克验证器：倒计时反应堆、发光服务导轨与错落的切角保险库面板。",
+      "author": "2FA Theme Contributors",
+      "packageId": "6bcb47544891e2f1f7b678f74c9ad786d8824a264afeff808301f55b89f9638c",
+      "path": "themes/cyberpunk-for-2fa/2fa-theme.zip",
+      "sha256": "f39fe1989492b42cc14ca1cffbec9330eaaccf88edeeeb44a0f1747e4c2e219b",
+      "size": 76403,
+      "source": "https://github.com/wuzf/2fa-theme-cyberpunk"
     }
   ]
 }
