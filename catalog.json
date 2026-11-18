@@ -130,6 +130,19 @@
       "sha256": "9d3a1876d9d231d3098141168e4899795f56b5009e9b44bfb443e999bd6ba267",
       "size": 1662538,
       "source": "https://github.com/wuzf/2fa-theme-sketch"
+    },
+    {
+      "id": "y2k-for-2fa",
+      "kind": "app",
+      "name": "Y2K Window · 千禧视窗",
+      "version": "1.0.0",
+      "description": "千禧桌面窗口：水蓝标题栏、服务文件夹资源管理器、液晶屏小部件与玻璃任务栏。",
+      "author": "2FA Theme Contributors",
+      "packageId": "ef4772df8acff7ca9d202a4fccfaa14a382b700751383c22222425d308947924",
+      "path": "themes/y2k-for-2fa/2fa-theme.zip",
+      "sha256": "04aeb47cb2e4d92013d0533485673ffed92c159a2c8c1799b81f3fdff7e0fcaf",
+      "size": 69953,
+      "source": "https://github.com/wuzf/2fa-theme-y2k"
     }
   ]
 }
