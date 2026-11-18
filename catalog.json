@@ -104,6 +104,19 @@
       "sha256": "e0352857a244058e99417fc2694b81802c1e6b1e84957467169ba37e0eb30f98",
       "size": 63471,
       "source": "https://github.com/wuzf/2fa-theme-neubrutalism"
+    },
+    {
+      "id": "pixel-for-2fa",
+      "kind": "app",
+      "name": "Pixel",
+      "version": "1.0.0",
+      "description": "An RPG inventory authenticator: item slots, category tabs, an inspect dialog with an HP timer and pixel landscapes.",
+      "author": "2FA Theme Contributors",
+      "packageId": "74a1e08cbbcd9fffa4fc0b3a7d080da7b9bdb0aa3bc6afe17391f13b61f287de",
+      "path": "themes/pixel-for-2fa/2fa-theme.zip",
+      "sha256": "c3ed556fec0a56951960f76d23bbf8e3d310a55244a45dbb1fb4bf91d61e2ff9",
+      "size": 666924,
+      "source": "https://github.com/wuzf/2fa-theme-pixel"
     }
   ]
 }
