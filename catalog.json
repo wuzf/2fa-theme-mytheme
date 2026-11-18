@@ -52,6 +52,19 @@
       "sha256": "f39fe1989492b42cc14ca1cffbec9330eaaccf88edeeeb44a0f1747e4c2e219b",
       "size": 76403,
       "source": "https://github.com/wuzf/2fa-theme-cyberpunk"
+    },
+    {
+      "id": "ente-for-2fa",
+      "kind": "app",
+      "name": "Ente 风格",
+      "version": "1.0.0",
+      "description": "An Ente Auth-inspired authenticator: a menu, centred title, filter and search icons, tag chips, and flat code cards with a countdown line along the top, the next code bottom right and a round scan button.",
+      "author": "2FA Theme Contributors",
+      "packageId": "9915666c7ccc5f4f2817f52ae18f66c650886823e10c17c9f770a26a577c29ff",
+      "path": "themes/ente-for-2fa/2fa-theme.zip",
+      "sha256": "063ebd08a15bbded5b8c53181798ec2f08d2b2bc0ac810fea5103145f68cdb20",
+      "size": 71488,
+      "source": "https://github.com/wuzf/2fa-theme-ente"
     }
   ]
 }
