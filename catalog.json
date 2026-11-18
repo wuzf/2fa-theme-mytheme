@@ -117,6 +117,19 @@
       "sha256": "c3ed556fec0a56951960f76d23bbf8e3d310a55244a45dbb1fb4bf91d61e2ff9",
       "size": 666924,
       "source": "https://github.com/wuzf/2fa-theme-pixel"
+    },
+    {
+      "id": "sketch-for-2fa",
+      "kind": "app",
+      "name": "Sketch",
+      "version": "1.0.0",
+      "description": "A pencil-and-graph-paper authenticator: sketch notes taped to a drawing board, sticky-note service labels, and precise codes.",
+      "author": "2FA Theme Contributors",
+      "packageId": "43be2aee0a24195f7f142bbc84923ae53144ed0070f03af828e67267c7bbdae6",
+      "path": "themes/sketch-for-2fa/2fa-theme.zip",
+      "sha256": "9d3a1876d9d231d3098141168e4899795f56b5009e9b44bfb443e999bd6ba267",
+      "size": 1662538,
+      "source": "https://github.com/wuzf/2fa-theme-sketch"
     }
   ]
 }
